@@ -1,0 +1,21 @@
+$TTL    3600 
+@      IN     SOA    serveur.runpsi.lan.   root.runpsi.lan.   (  
+                                           2021113001   
+                                           3600  
+                                           600
+                                           86400
+                                           600 );
+
+@       IN     NS     serveur
+@       IN     MX    1     mail
+
+livebox          IN    A    192.168.1.1
+pcasus           IN    A    192.168.1.14
+serveur          IN    A    192.168.1.37
+www              IN    A    192.168.1.37
+mail             IN    A    192.168.1.39
+pop              IN    A    192.168.1.39
+smtp             IN    A    192.168.1.39
+imap             IN    A    192.168.1.39
+ldap             IN    A    192.168.1.37
+dns              IN    CNAME    serveur

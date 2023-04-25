@@ -1,0 +1,13 @@
+@      IN     SOA    serveur.runpsi.lan.   root.runpsi.lan. (  
+                                       2021113001   
+                                       3600  
+                                       600
+                                       86400
+                                       600 );
+
+       IN     NS     serveur.runpsi.lan.
+
+1       IN     PTR     livebox.runpsi.lan.
+14      IN     PTR     pcasus.runpsi.lan.
+37      IN     PTR     serveur.runpsi.lan.
+39      IN     PTR     mail.runpsi.lan.

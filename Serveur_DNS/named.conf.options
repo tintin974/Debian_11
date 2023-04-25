@@ -1,0 +1,11 @@
+options {
+    directory "/var/cache/bind";
+    forwarders { 192.168.1.1; };
+    auth-nxdomain no;
+    listen-on-v6 { none; };
+    listen-on { 127.0.0.1 ; 192.168.1.37 ;};
+    allow-transfer {none;};
+    allow-query { 192.168.1.0/29; localhost; };
+    allow-recursion { 192.168.1.0/29; localhost; };.
+    version none; #Ne pas diffuser la version de Bind.
+}

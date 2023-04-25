@@ -12,6 +12,8 @@ EOF
 echo "Installation Utilitaire"
 apt-get install -y mc gnupg2 sudo curl
 sudo apt install -y lsb-release ca-certificates apt-transport-https software-properties-common
+
+sudo apt install -y nodejs npm grunt
 echo "========================="
 echo "  Installation Terminée  "
 echo "========================="

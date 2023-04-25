@@ -1,0 +1,13 @@
+zone "runspi.lan" {  
+    type master; 
+    file "/var/cache/bind/db.runspi.lan" ; 
+    forwarders {};
+    allow-update {none;};  
+};
+
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/var/cache/bind/db.runspi.lan.inv" ;
+    forwarders{};
+    allow-update{none;};
+};
